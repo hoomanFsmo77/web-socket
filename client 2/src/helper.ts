@@ -1,0 +1,1 @@
+export const apiUrl='https://ws-test.iran.liara.run'

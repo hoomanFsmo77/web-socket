@@ -1,0 +1,8 @@
+const formData=new FormData()
+    formData.append('image',fileInput.files[0])
+    fetch('http://localhost:3000/storage/image/upload',{
+        method:'POST',
+        body:formData
+    }).then(res=>res.json()).then(response=>{
+        console.log(response)
+    })

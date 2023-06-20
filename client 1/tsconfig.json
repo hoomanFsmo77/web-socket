@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "strict": true,
+    "target": "ES5",
+    "module": "ES2015",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+     "moduleResolution": "Node",
+    "sourceMap": true
+  },
+  "exclude": ["./webpack.dev.config.ts","./webpack.prod.config.ts"]
+}
