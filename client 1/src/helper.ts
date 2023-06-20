@@ -1,1 +1,1 @@
-export const apiUrl='https://ws-test.iran.liara.run'
+export const apiUrl='wss://ws-test.iran.liara.run'
